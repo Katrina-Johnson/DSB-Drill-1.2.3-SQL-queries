@@ -1,0 +1,8 @@
+SELECT
+    *
+FROM
+    trips
+ORDER BY duration ASC
+LIMIT 1;
+
+--What's the shortest trip that happened?

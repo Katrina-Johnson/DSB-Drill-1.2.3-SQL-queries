@@ -1,0 +1,8 @@
+SELECT
+    start_station,
+    COUNT(trip_id) as trip_count
+FROM
+    trips
+GROUP by start_station;
+
+--How many trips started at each station?

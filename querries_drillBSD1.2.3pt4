@@ -1,0 +1,8 @@
+SELECT
+	end_station,
+    AVG(duration) as avg_trip_duraiton
+FROM
+    trips
+GROUP by end_station;
+
+--What is the average trip duration, by end station?

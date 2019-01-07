@@ -1,0 +1,9 @@
+SELECT
+	zip,
+	maxtemperaturef
+FROM
+    weather
+ORDER BY maxtemperaturef DESC
+LIMIT 1;
+
+--What was the hottest day in our data set? Where was that?
